@@ -58,7 +58,7 @@ function useCloseModal(){
 	useEffect(()=> {
 		window.addEventListener("keydown", handleEsc);
 		return () => window.removeEventListener("keydown", handleEsc);
-	}, [])
+	}, [handleEsc])
 
 	return closeModal;
 }

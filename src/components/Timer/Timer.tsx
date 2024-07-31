@@ -23,7 +23,7 @@ const Timer = () => {
                 clearInterval(timer);
             }
         };
-    }, [showTimer]);
+    }, [showTimer,intervalId]);
 
     const resetTimer = () => {
         setShowTimer(false);
