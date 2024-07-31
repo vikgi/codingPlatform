@@ -4,7 +4,7 @@ import Login from "./Login"
 import Signup from "./Signup";
 import ResetPassword from "./ResetPassword";
 import { useRecoilValue, useSetRecoilState } from "recoil";
-import { authModalState } from "@/atoms/authModalatom";
+import { authModalState } from "@/atoms/authModalAtom";
 
 type AuthModalProps = {};
 
